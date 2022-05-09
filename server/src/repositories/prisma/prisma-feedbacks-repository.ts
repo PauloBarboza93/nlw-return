@@ -1,7 +1,7 @@
 import { prisma } from "../../prisma";
 import {
   FeedbackCreateData,
-  FeedbacksRepository,
+  FeedbacksRepository
 } from "../feedbacks-repository";
 
 export class PrismaFeedbacksRepository implements FeedbacksRepository {
